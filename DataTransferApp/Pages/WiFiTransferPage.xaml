@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DataTransferApp.Pages.WiFiTransferPage"
+             Title="Wi-Fi Transfer">
+  <VerticalStackLayout Padding="20" Spacing="15">
+    <Label Text="Wi-Fi Transfer" FontSize="28" FontAttributes="Bold" HorizontalOptions="Center" />
+    <Label Text="Transfer files over the same Wi-Fi network or nearby sharing." />
+    <Button Text="Start Wi-Fi Transfer" />
+  </VerticalStackLayout>
+</ContentPage>
