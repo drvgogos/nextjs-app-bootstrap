@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DataTransferApp.Pages.QRCodeTransferPage"
+             Title="QR Code Transfer">
+  <VerticalStackLayout Padding="20" Spacing="15">
+    <Label Text="QR Code Transfer" FontSize="28" FontAttributes="Bold" HorizontalOptions="Center" />
+    <Label Text="Generate and scan QR codes to transfer files between devices." />
+    <Button Text="Start QR Code Transfer" />
+  </VerticalStackLayout>
+</ContentPage>
