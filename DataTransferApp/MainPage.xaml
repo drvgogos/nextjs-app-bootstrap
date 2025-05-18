@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DataTransferApp.MainPage"
+             Title="Data Transfer App">
+  <ScrollView>
+    <VerticalStackLayout Padding="20" Spacing="15">
+      <Label Text="Data Transfer App" FontSize="32" FontAttributes="Bold" HorizontalOptions="Center" />
+      <Label Text="Easily transfer data between Android, iOS, and PC using multiple methods:" FontSize="18" HorizontalOptions="Center" />
+      <Button Text="Bluetooth Transfer" Clicked="BluetoothTransfer_Clicked" />
+      <Button Text="USB Transfer" Clicked="USBTransfer_Clicked" />
+      <Button Text="Wi-Fi Transfer" Clicked="WiFiTransfer_Clicked" />
+      <Button Text="QR Code Transfer" Clicked="QRCodeTransfer_Clicked" />
+      <Button Text="Web Interface Transfer" Clicked="WebInterfaceTransfer_Clicked" />
+      <Button Text="Cloud Sync Transfer" Clicked="CloudSyncTransfer_Clicked" />
+      <Button Text="NFC Transfer" Clicked="NFCTransfer_Clicked" />
+    </VerticalStackLayout>
+  </ScrollView>
+</ContentPage>
